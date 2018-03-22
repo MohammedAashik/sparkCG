@@ -1,0 +1,76 @@
+Shell
+
+Shell is a UNIX term for the interactive user interface with an operating system. 
+The shell is the layer of programming that understands and executes the commands a user enters. 
+In some systems, the shell is called a command interpreter. 
+
+Features of shell:
+
+1.Wildcard substitution in file names
+2.Wildcard substitution in file names
+3.Command aliasing
+4.Command history
+5.File name substitution
+6.Input and output redirection
+7.Piping
+8.Shell variable substitution
+
+Types of Shells:
+
+Bourne shell
+C shell
+TC shell
+Z shell
+Korn shell
+Bourne-Again shell (BASH)
+
+
+
+
+Bourne shell:
+The Bourne shell (sh) is a shell, or command-line interpreter, for computer operating systems.
+Developed by Stephen Bourne at Bell Labs, it was a replacement for the Thompson shell
+ it is used as an interactive command interpreter.
+ It was also intended as a scripting language and contains most of the features that are commonly considered to produce structured programs.
+
+
+C shell:
+It is known as "csh."
+The C shell was designed to allow users to write shell script programs using a syntax very similar to that of the C programming language. 
+
+TC shell:
+TC shell is an expansion upon the C shell.
+It is also known as "tcsh."
+It has all the same features, but adds the ability to use keystrokes from the Emacs word processor program to edit text on the command line. 
+For example, users can press Esc-D to delete the rest of the highlighted word.
+
+Z shell:
+Zsh is a shell of the Bourne shell family, which also includes bash and the Korn shell.
+ Developed by Paul Falstad, zsh was intended to be a replacement for both the Bourne and C shell . 
+It incorporates features of all the other shells as well as new capabilities.
+
+ 
+Korn shell:
+It is known as "ksh."
+Korn Shell was also written by a developer at Bell Labs, David Korn.
+ It attempts to merge the features of the C shell, TC shell and Bourne shell under one package. 
+It also includes the ability for developers to create new shell commands as the need arises.
+
+Bourne-Again shell:
+It is known as "bash."
+The Bourne-Again shell is an updated version of the original Bourne shell that was created by the Free Software Foundation for its open source GNU project.
+ It is a widely used shell in the open source community.
+ It incorporates some of the more advanced features found in the C, TC and Korn shells.
+
+
+
+Enivornmental variables:
+Linux environment variables act as placeholders for information stored within the system that passes data to programs launched in shells or subshells.
+
+
+Commands for Environment Variables:
+env  – The command lists all of the environment variables in the shell.
+printenv – The command prints all of environment variables and definitions of the current environment.
+set – The command assigns or defines an environment variable.
+unset – The command deletes the environment variable. 
+export – The command exports the value of the newly assigned environment variable.
