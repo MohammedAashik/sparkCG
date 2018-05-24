@@ -1,0 +1,368 @@
+                                                 DATABASE FUNDAMENTALS
+                                                -----------------------
+
+   DBMS VS RDBMS
+--------------------
+Terminologies:
+
+Entity
+Attribute
+Relationship
+Tuple
+Anomaly
+
+
+Normalizations:
+
+1NF
+2NF
+3NF
+BCNF
+
+Database Objects:
+
+Table
+View
+Functions
+Stored procedure
+Trigger
+
+Index: 
+   1) Primary Index (Here only one primary index)
+   2) Secondary Index (There can be n no.of secondary index)
+
+
+Constrains:
+
+NOT null
+Unique
+PrimaryKey 
+Default
+Check
+Foriegn Key
+
+SQL:
+
+DML - select, insert, update, delete, modify
+DDL - create, alter, drop, truncate
+DCL - greant, deny, revoke
+TCL - commit, rollback, savepoint
+
+Joins:
+
+inner join
+left-outer
+right-outer
+full
+cross join
+self-join
+equi vs non-equi
+
+Products:
+
+Propraitory database are:
+Oracle
+Sql server
+DB2
+Foxpro
+Ms access
+   
+Open sources are:        
+Mysql
+Postgresql
+
+Transaction - ACID
+
+                                                  Windows Essentials
+                                                 --------------------
+Domain-Domaintree-Forest-replication-
+
+DC - RWDC - RODC
+
+Protocols - ports
+
+http - 80
+DNS -  53
+SMTP - 25
+DHCP - 67
+POP3 - 110
+
+
+ADDS- (ntds.dit where adds stored) and infracorp.com within this there are 5 responsibilities:
+- FSMO roles
+              Forest
+              Domain naming
+              Schema
+              Domain
+                      - RID 
+                      - PDC
+                      - Infrastructure
+
+GroupPolicy it is used to install softwares but excluding .msi packages. There are two policies: Default Domain Policy
+Starter Gpo
+       User Vs Computer
+                                                                                    
+DNS- There are different types of records
+
+A
+AAAA
+CNAME
+MX
+PTR
+SRV
+
+Zone:
+Primary zone - It stores the copy of DNS data
+Secondary zone - It is used to help others for grand resolution
+Stub zone - It contains the information about the authority person 
+
+
+DHCP 
+169. range
+
+WDS
+Boot vs Install -images will be in (.wim format). The two important servers are : Transport server and Deployment server
+
+WSUS 
+- IIS
+- SCCM 
+
+IIS
+- Security - Firewall - EFS - Bitlocker
+
+
+                                                         LINUX ESSENTIALS
+                                                        ------------------
+
+FileSystem Management
+Software Management
+Risk Management
+Process Management
+Troubleshooting
+Security
+
+ACL
+
+User Management
+
+root
+sudoer(0)
+
+Software Management
+
+rpm -qa
+yum -qip firefox.rpm
+rpm -ivh firefox.rpm
+rpm -ev adsdsd.rpm
+yum
+
+Disk management
+fdisk
+lvm -pv -vg -lv
+mkfs
+mount
+/etc/fstab
+
+Process Management
+
+ps -ef
+kill -15 (gentle kill)
+kill -9 (forcefull)
+
+top:
+----
+to start a process with differnet priority we use nice
+to give priority to an existing process we use renice
+
+Troubleshooting:
+Ping
+ifconfig
+fsck can be used to check file system consistency
+host - dig
+single usermode - passwd -d root
+/var/log/ (which is used to store log files)
+dmesg (Kernel ring buffer)
+
+
+Security
+  iptables (these both are related to firewall)
+  SElinux
+
+
+                                        Windows Fundaments
+                                     -----------------------
+
+POST
+
+MBR (4 primary partitions 1 extended partition and size is 2tb) vs GPT (128 primary partitions and n no.of logical partitions can be created)
+
+Bootloader
+
+BCD- bcdedit
+
+FAT32 2gb vs NTFS 
+
+process-Threads-Processor(CISC vs RISC)-HyderThreading
+                                       -Multiprocessing
+HAL(Hardware Abstraction Layer)
+
+VirtualMemory-PageFile-VAT-MemoryPool
+
+
+
+                                          Network Essentials
+                                         --------------------
+
+Subnetting
+
+Routing protocols
+
+Administrative Distance depending upon the priority it will change
+
+TCP vs UDP
+
+DNS uses both tcp and udp protocols
+DNS-    53
+DHCP-   67
+TFTP-   69
+SNMP-  161
+HTTPS- 443
+IMAP4- 143
+NTP-   123
+POP3-  110
+HTTP-   80
+SSH-    22
+Telnet- 23
+FTP-    20,21
+SMTP-   25
+
+Router-Switch Configuration
+
+Login vs MOTD
+
+banner motd "dfdsj"
+
+banner login "dsfdf"
+
+copy run to startup configuration(to move from ram to nvram) 
+
+copy flash tftp(to copy ios file to tftp)
+
+RIP (Routing Information Protocol) 
+
+EIGRP (Enhanced Interior Gateway Routing Protocol) convergency rate: 5sec
+
+OSPF (Open Shortest Path First)
+
+Routing Protocol	                   Administrative distance
+External BGP	                                20
+Internal EIGRP	                                90
+IGRP	                                        100
+OSPF	                                        110
+Routing Information Protocol (RIP)	        120
+External EIGRP	                                170
+Internal BGP	                                200
+
+Redistribution
+
+Security 
+   - ACL(Access Control List) -Standard
+                              -Extended
+                              -Named
+
+
+
+   - PORT Security
+         Switchport port-security maximum 1
+         Switchport port-security violation s
+
+No Default routing protocol - Best path, best sec
+
+VLAN(5 VLAN, 5 BroadCastDomain) - VTP(802.1q)
+
+NAT - Static, Dynamic, PAT(NAT Overload)
+
+STP - Spanning-tree portfast
+
+WAN Protocols - FrameRelay, HDLC, PPP
+
+
+
+
+
+
+
+
+
+
+
+
+                                                        SOFT SKILLS
+                                                      ------------------
+
+Opening Statement:
+-------------------
+
+It is the first sentence in an email and should denote the reason/purpose of sending the email 
+
+Ex: This is to keep you informed about the results after testing the application.
+
+This email communication intends to provide information about training program conducted in H2 of 2016.
+
+Closing Statement:
+-------------------
+
+Ex: Kindly let me know of a good time to discuss this further.
+
+Iam awaiting a reply at the earliest.
+
+Please feel to connect with me for further clarification at email address-supriti.phani@capgemini.com
+
+1) The attachment contains the features of the application: is this a subject line, opening or closing statement?
+Ans: Opening Statement
+
+
+Can we use paragraphs or points/bullets in an email? yes
+can we use attachments in an email? yes
+Is email by default a proof or evidence? yes
+can we use BCC column in business emails? yes, we can 
+BCC stands for Blind Carbon Copy, 
+The feature is if u put any email address in the bcc the people who are there in (to and cc column) they dont know who are ther in bcc column.
+
+Do you know what is phishing? 
+
+Communication:
+----------------
+
+Definition of communication: It is a process of influencing someone or others to achieve objective or objectives.
+
+This means that every form of communication has 2 main parts- there is always an objective(goal/ purpose/ reason) and it includes influence(of some kind).
+
+
+1) The forming of opinion without real experience and which is based on opiniouns of others is called prejudice.
+
+Rate of speech: total no of words you speak in 1 minute
+Fluency: the ease with which you speak english
+Diction: is the choice of words used
+prejudice: forming an opinion about other person
+Thought process: the ability to think logically
+Emotional intelligence: understanding self and others in a good way
+
+
+External customers:
+
+Paraphrasing: When you rephrase an information in your own words it is called Paraphrasing.
+Verbal nods: short words of acknowledgement 
+profanity: vulgar or abusive language
+
+1) Prejudice is barrier to communication
+2) Criticizing your manager in front of others is inappropriate behaviour in workplace
+
+
+
+
+
+
+
+
+
